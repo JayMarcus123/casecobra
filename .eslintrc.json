@@ -1,0 +1,14 @@
+{
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "react/no-unescaped-entities": "off",
+    "@next/next/no-img-element": "off",
+    "jsx-a11y/alt-text": ["error", {
+      "elements": ["img"],
+      "img": ["Image"],
+      "object": [],
+      "area": [],
+      "input[type=\"image\"]": []
+    }]
+  }
+}
